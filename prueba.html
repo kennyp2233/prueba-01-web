@@ -37,8 +37,12 @@
             font-size: 12px;
         }
 
-        header {
+        .color-bg-principal {
             background-color: var(--color-principal);
+        }
+
+        header {
+
             color: #fff;
             display: flex;
             justify-content: space-between;
@@ -129,6 +133,7 @@
 
         .proyecto-item {
             width: 351px;
+            height: 303px;
         }
 
         .contactos h1 {
@@ -137,15 +142,22 @@
 
         .contactos-container {
             display: flex;
-            align-items: center;
+            align-items: left;
             justify-content: center;
             gap: 50px;
+        }
+
+
+        .contactos-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
     </style>
 </head>
 
 <body>
-    <header>
+    <header class="color-bg-principal">
         <h1 class="logo">Kenny Pinchao</h1>
         <div class="contenedor-derecho">
             <nav>
@@ -235,8 +247,10 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="color-bg-principal">
+        <h2>Examen de aplicaciones web</h2>
+        <h2>2023</h2>
+        <i class="fa-brands fa-facebook"></i>
     </footer>
 </body>
 

@@ -120,6 +120,7 @@ main {
 
 .proyectos h1 {
     width: 100%;
+    padding: 0 40px;
 }
 
 .proyectos-container {
@@ -146,6 +147,7 @@ main {
 
 .contactos h1 {
     width: 100%;
+    padding: 0 40px;
 }
 
 

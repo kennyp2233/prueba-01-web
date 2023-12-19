@@ -90,15 +90,22 @@
 
         .biografia {
             display: flex;
-            gap: 100px;
+            justify-content: center;
+            gap: 20px;
         }
 
         .contenedor-izquierda-biografia {
             padding: 20px;
+            max-width: 500px;
         }
 
         .contenedor-imagen {
             padding: 20px;
+        }
+
+        .contenedor-imagen img {
+            border-radius: 50%;
+            border: 5px solid var(--color-principal);
         }
 
         .btn {
@@ -128,18 +135,18 @@
     <main>
         <section class="biografia">
             <div class="contenedor-izquierda-biografia">
-                <h2>Biografía</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio exercitationem eius, dolor minima
-                    libero,
-                    nobis facilis ratione recusandae quo aliquid saepe nemo eum! Iste amet veniam similique, ipsa
-                    doloremque
-                    natus?
-                </p>
-                <h2>Contáctame:</h2>
-                <p>(+593) 987-645-342</p>
-                <button class="btn">
-                    DESCARGAR MI CV
-                </button>
+                <h1>Biografía</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio exercitationem eius, dolor minima
+                        libero,
+                        nobis facilis ratione recusandae quo aliquid saepe nemo eum! Iste amet veniam similique, ipsa
+                        doloremque
+                        natus?
+                    </p>
+                    <h2>Contáctame:</h2>
+                    <p>(+593) 987-645-342</p>
+                    <button class="btn">
+                        DESCARGAR MI CV
+                    </button>
             </div>
             <div class="contenedor-imagen">
                 <img src="https://picsum.photos/200/200" alt="">

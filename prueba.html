@@ -65,7 +65,7 @@
         }
 
         .contenedor-derecho nav ul li a {
-            color: #fff;
+            color: var(--color-default);
             text-decoration: none;
         }
 
@@ -84,8 +84,22 @@
 
         .biografia {
             display: flex;
-            justify-content: space-between;
+            gap: 100px;
+        }
 
+        .contenedor-izquierda-biografia {
+            padding: 20px;
+        }
+
+        .contenedor-imagen {
+            padding: 20px;
+        }
+
+        .btn {
+            background-color: var(--color-secundario);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
         }
     </style>
 </head>
@@ -116,7 +130,10 @@
                     natus?
                 </p>
                 <h2>Contáctame:</h2>
-                <p></p>
+                <p>(+593) 987-645-342</p>
+                <button class="btn">
+                    DESCARGAR MI CV
+                </button>
             </div>
             <div class="contenedor-imagen">
                 <img src="https://picsum.photos/200/200" alt="">

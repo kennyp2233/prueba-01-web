@@ -96,10 +96,11 @@ main {
 .contenedor-izquierda-biografia {
     padding: 20px;
     max-width: 500px;
+    margin-left: 100px;
 }
 
 .contenedor-imagen {
-    padding: 20px;
+    padding: 10px;
 }
 
 .contenedor-imagen img {
@@ -127,7 +128,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-
     gap: 30px;
 }
 

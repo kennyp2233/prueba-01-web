@@ -114,6 +114,10 @@ main {
     padding: 10px 20px;
 }
 
+.proyectos {
+    padding-bottom: 100px;
+}
+
 .proyectos h1 {
     width: 100%;
 }
@@ -128,11 +132,22 @@ main {
 
 .proyecto-item {
     width: 351px;
+    height: 303px;
+}
+
+
+.proyecto-item h2 {
+    text-align: center;
+}
+
+.proyecto-item p {
+    font-size: 12px;
 }
 
 .contactos h1 {
     width: 100%;
 }
+
 
 .contactos-container {
     display: flex;

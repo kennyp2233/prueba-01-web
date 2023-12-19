@@ -1,0 +1,188 @@
+* {
+
+    box-sizing: border-box;
+    --color-principal: #1B6894;
+    --color-secundario: #A45C09;
+    --color-default: #D9D9D9;
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.descripcion {
+    font-size: 12px;
+}
+
+.color-bg-principal {
+    background-color: var(--color-principal);
+}
+
+.color-default {
+    color: var(--color-default);
+}
+
+header {
+
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 9%;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 19px;
+    color: var(--color-default);
+}
+
+.contenedor-derecho {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-derecho nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.contenedor-derecho nav ul li {
+    margin: 0 35px;
+    width: 100px;
+}
+
+.contenedor-derecho nav ul li a {
+    color: var(--color-default);
+    text-decoration: none;
+}
+
+.contenedor-derecho nav ul li a:hover {
+    color: #ffff00;
+}
+
+
+.fa-magnifying-glass {
+    margin-left: 40px;
+    color: var(--color-default);
+}
+
+main {
+    padding: 15px 122px;
+}
+
+.biografia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor-izquierda-biografia {
+    padding: 20px;
+    max-width: 500px;
+}
+
+.contenedor-imagen {
+    padding: 20px;
+}
+
+.contenedor-imagen img {
+    border-radius: 50%;
+    border: 5px solid var(--color-principal);
+}
+
+.btn {
+    background-color: var(--color-secundario);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+.proyectos h1 {
+    width: 100%;
+}
+
+.proyectos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.proyecto-item {
+    width: 351px;
+}
+
+.contactos h1 {
+    width: 100%;
+}
+
+.contactos-container {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.contactos-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.contactos-container form label {
+    font-size: 14px;
+}
+
+.contactos-container form input {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--color-default);
+}
+
+.contactos-container form textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--color-default);
+}
+
+.contactos-container form button {
+    background-color: var(--color-secundario);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 1%;
+}
+
+footer h2 {
+    font-size: 16px;
+}

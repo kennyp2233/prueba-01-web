@@ -117,7 +117,6 @@
 
         .proyectos h1 {
             width: 100%;
-            text-align: center;
         }
 
         .proyectos-container {
@@ -130,6 +129,17 @@
 
         .proyecto-item {
             width: 351px;
+        }
+
+        .contactos h1 {
+            width: 100%;
+        }
+
+        .contactos-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
         }
     </style>
 </head>
@@ -207,6 +217,21 @@
                     <p>Tiempo: 6 meses</p>
                     <p>Lenguaje: Java</p>
                 </div>
+            </div>
+        </section>
+        <section class="contactos">
+            <h1>Contactos</h1>
+            <div class="contactos-container">
+                <img src="https://picsum.photos/500/400" alt="">
+                <form>
+                    <label>Nombre y apellido:</label>
+                    <input type="text" placeholder="Aqui tu nombre">
+                    <label>Correo electrónico:</label>
+                    <input type="email" placeholder="Aqui tu correo">
+                    <label>Mensaje:</label>
+                    <textarea></textarea>
+                    <button class="btn">Enviar</button>
+                </form>
             </div>
         </section>
     </main>
